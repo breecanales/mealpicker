@@ -71,11 +71,6 @@
             .cls-19 {
                 fill: #fff;
             }
-            .cls-20 {
-                font-size: 80px;
-                font-family: KabrioAlternate-ExtraBold, Kabrio Alternate;
-                font-weight: 800;
-            }
             .cls-21 {
                 filter: url(#luminosity-noclip-2);
             }
@@ -167,7 +162,6 @@
             <path class="cls-13" d="M813.68,220.47A22,22,0,1,1,793.22,197,22,22,0,0,1,813.68,220.47Z" />
             <path class="cls-17" d="M358.48,392.77a16.39,16.39,0,1,1-15.22-17.49A16.4,16.4,0,0,1,358.48,392.77Z" />
             <path class="cls-15" d="M353,521.54A32.42,32.42,0,1,1,322.94,487,32.42,32.42,0,0,1,353,521.54Z" />
-            <text class="cls-20" transform="translate(330.3 860.07)">MEAL PICKER</text>
         </g>
     </g>
 </svg>

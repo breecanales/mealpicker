@@ -49,13 +49,25 @@ h6 {
     margin: 0;
 }
 
+.header {
+    margin-bottom: 1rem;
+}
+
+.block__logo {
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .block__heading {
+    width: 38%;
+    display: inline-block;
+    vertical-align: middle;
     font-size: 1.5rem;
     font-weight: 800;
     color: $green-dark;
     letter-spacing: 1px;
     text-transform: uppercase;
-    text-align: center;
     margin: 1rem 0;
 }
 
