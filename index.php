@@ -32,7 +32,7 @@
                     <input id="password" type="password" name="password" placeholder="Password" />
                 </div>
                 <div class="helper__text">
-                    <a href="#">Forgot username or password?</a>
+                    <a href="#">Forgot username<br />or password?</a>
                 </div>
                 <div class="form__input">
                     <label class="label" for="sign-in">Sign In</label>
