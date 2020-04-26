@@ -9,12 +9,8 @@ html {
 }
 
 body {
-    //position: relative;
     width: 500px;
     max-width: 100%;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
     font-family: $nunito;
     font-size: 100%;
     line-height: 1.5;
@@ -25,11 +21,11 @@ body {
 
 .go__home {
 	display: block;
+	color: transparent;
 }
 
 a {
     color: $link;
-    //text-decoration: none;
 
     &:hover,
     &:active,
@@ -82,8 +78,14 @@ h6 {
 .block__subheading {
     font-size: 0.85rem;
     font-weight: 600;
-    color: $teal;
+    color: $blue;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
+}
+
+.block__copy {
+	font-size: 1.25rem;
+	text-align: center;
+	margin: 1rem 0;
 }

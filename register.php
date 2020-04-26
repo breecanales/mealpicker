@@ -33,7 +33,7 @@
                 </div>
                 <div class="form__input">
                     <label class="label" for="submit">Submit</label>
-                    <button id="submit" class="button orange-dark" type="button">Submit</button>
+                    <button id="submit" class="button orange-dark" type="button"><a href="success.php">Submit</a></button>
                 </div>
             </form>
         </main>

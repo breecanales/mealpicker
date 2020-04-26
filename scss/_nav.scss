@@ -1,0 +1,48 @@
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.main__nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+
+	li {
+		width: 25%;
+
+		&:nth-of-type(1) {
+			background-color: $green-dark;
+		}
+
+		&:nth-of-type(2) {
+			background-color: $orange-light;
+		}
+
+		&:nth-of-type(3) {
+			background-color: $orange-med;
+		}
+
+		&:nth-of-type(4) {
+			background-color: $orange-dark;
+		}
+	}
+
+	.nav__icon {
+		display: block;
+		width: 100%;
+		height: 35px;
+	}
+
+	a {
+		display: block;
+		font-size: 14px;
+		text-align: center;
+		text-decoration: none;
+		padding: 0 0 5px;
+		color: $white;
+	}
+}

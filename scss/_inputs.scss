@@ -16,9 +16,9 @@ input[type=password],
 input[type=tel] {
     width: 100%;
     font-size: 0.875rem;
-    color: $teal;
+    color: $blue;
     padding: 0.875rem;
-    border: 1px solid $teal;
+    border: 1px solid $blue;
 }
 
 input[type=radio] {
@@ -39,16 +39,16 @@ input[type=radio] {
 }
 
 ::-webkit-input-placeholder {
-  color: $teal;
+  color: $blue;
 }
 ::-moz-placeholder {
-  color: $teal;
+  color: $blue;
 }
 :-ms-input-placeholder {
-  color: $teal;
+  color: $blue;
 }
 :-moz-placeholder {
-  color: $teal;
+  color: $blue;
 }
 
 .helper__text {

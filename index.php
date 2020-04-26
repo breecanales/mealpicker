@@ -19,17 +19,17 @@
                     <input id="password" type="password" name="password" placeholder="Password" />
                 </div>
                 <div class="helper__text">
-                    <a href="#">Forgot username<br />or password?</a>
+                    <a href="password.php">Forgot username<br />or password?</a>
                 </div>
                 <div class="form__input">
                     <label class="label" for="sign-in">Sign In</label>
-                    <button id="sign-in" class="button orange-light" type="button"><a href="./index.php">Sign In</a></button>
+                    <button id="sign-in" class="button orange-light" type="button"><a href="nutrition.php">Sign In</a></button>
                 </div>
             </form>
             <aside class="create__profile">
                 <div class="helper__text"><p>New to Meal Picker?</p></div>
                 <label class="label" for="create-profile">Create Profile</label>
-                <button id="create-profile" class="button orange-dark"><a href="./register.php">Create Profile</a></button>
+                <button id="create-profile" class="button orange-dark"><a href="register.php">Create Profile</a></button>
             </aside>
         </main>
     </body>
