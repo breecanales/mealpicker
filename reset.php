@@ -18,8 +18,8 @@
                     <p>Enter a new password.</p>
                 </div>
                 <div class="form__input">
-                    <label class="label" for="submit">Submit</label>
-                    <button id="submit" class="button orange-dark" type="button"><a href="nutrition.php">Submit</a></button>
+                    <label class="label" for="submit">Reset</label>
+                    <button id="submit" class="button orange-dark" type="button"><a href="nutrition.php">Reset</a></button>
                 </div>
             </form>
         </main>
