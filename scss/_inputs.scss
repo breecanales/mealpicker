@@ -1,8 +1,5 @@
-.form {
-    //
-}
-
-.form__input {
+.form__input,
+.form__radio {
     margin: 1rem 0;
 }
 
@@ -13,12 +10,32 @@
     left: -9999px;
 }
 
-input {
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=tel] {
     width: 100%;
     font-size: 0.875rem;
     color: $teal;
     padding: 0.875rem;
     border: 1px solid $teal;
+}
+
+input[type=radio] {
+	width: auto;
+	display: inline-block;
+}
+
+.radio {
+	position: relative;
+	top: 2.5px;
+	line-height: 1;
+	margin: 0 8px;
+
+	@media (max-width: 500px) {
+		top: 0;
+		margin: 0 3px;
+	}
 }
 
 ::-webkit-input-placeholder {
