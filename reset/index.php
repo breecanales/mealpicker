@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-		<?php include_once('head.php'); ?>
+		<?php include_once('../partials/head.php'); ?>
 
 		<body class="register">
 
-				<?php include_once('header.php'); ?>
+				<?php include_once('../partials/header.php'); ?>
 
         <main class="main" role="main">
             <h2 class="block__subheading">Password Reset</h2>
@@ -19,7 +19,7 @@
                 </div>
                 <div class="form__input">
                     <label class="label" for="submit">Reset</label>
-                    <button id="submit" class="button orange-dark" type="button"><a href="nutrition.php">Reset</a></button>
+                    <button id="submit" class="button orange-dark" type="button"><a href="../nutrition/">Reset</a></button>
                 </div>
             </form>
         </main>

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-		<?php include_once('head.php'); ?>
+		<?php include_once('../partials/head.php'); ?>
 
 		<body class="success">
 
-				<?php include_once('header.php'); ?>
+				<?php include_once('../partials/header.php'); ?>
 
         <main class="main" role="main">
             <h2 class="block__subheading">Registration Successful</h2>
@@ -14,7 +14,7 @@
             </div>
         </main>
 
-        <?php include_once('footer.php'); ?>
+        <?php include_once('../partials/footer.php'); ?>
 
     </body>
 </html>
