@@ -115,3 +115,38 @@ h6 {
 	  border-top: 20px solid $green-dark;
 	}
 }
+
+/* Meal Options */
+
+.nutrients_remaining {
+	display: inline-block;
+	width: calc(33.333% - 5px);
+	font-size: 0.9rem;
+	margin-top: 0.5rem;
+
+	span {
+		display: block;
+		color: #999;
+	}
+}
+
+.block__copy.nutrients {
+	padding-bottom: 1rem;
+	border-bottom: 10px solid $orange-med;
+}
+
+.block__copy.meal {
+	text-align: left;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid $gray-med;
+
+	p {
+		
+		line-height: 1;
+	}
+
+	.meal_macros {
+		font-size: 0.85rem;
+		color: #999;
+	}
+}
