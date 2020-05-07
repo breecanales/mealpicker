@@ -15,11 +15,13 @@ input[type=email],
 input[type=password],
 input[type=tel],
 input[type=search] {
+		-webkit-appearance: none;
     width: 100%;
     font-size: 0.875rem;
     color: $blue;
     padding: 0.875rem;
     border: 1px solid $blue;
+    border-radius: 0;
 }
 
 input[type=radio] {
