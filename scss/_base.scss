@@ -28,6 +28,11 @@ body {
 	color: transparent;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 a {
     color: $link;
 
@@ -230,4 +235,16 @@ h6 {
 		padding: 8.5px 0;
 		fill: $white;
 	}
+}
+
+/* Nutrition */
+
+.block__subsubhead {
+	background-color: $green-light;
+}
+
+.pie_chart {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
 }
