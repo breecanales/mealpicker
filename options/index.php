@@ -12,7 +12,7 @@
 				<?php //include_once('../partials/header.php'); ?>
 
         <main class="main" role="main">
-        	<div class="block__copy nutrients">
+        	<div class="block__copy options">
           	<p>Nutrients Remaining</p>
           	<div class="nutrients_remaining">160<span>Carbs (g)</span></div>
           	<div class="nutrients_remaining">38<span>Fat (g)</span></div>

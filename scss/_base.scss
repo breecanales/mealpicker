@@ -136,9 +136,13 @@ h6 {
 	}
 }
 
-.block__copy.nutrients {
+.block__copy.options {
 	padding-bottom: 1rem;
 	border-bottom: 10px solid $orange-med;
+}
+
+.block__copy.nutrition {
+	padding: 1.5rem 0 0;
 }
 
 .block__copy.meal {
@@ -207,9 +211,13 @@ h6 {
 	a {
 		display: block;
 		color: $white;
+		font-size: 0.875rem;
+		font-weight: 600;
 		text-decoration: none;
+		text-transform: uppercase;
+		letter-spacing: 1px;
 		padding: 10px 15px;
-		background-color: $green-dark;
+		background-color: $orange-med;
 	}
 }
 
@@ -246,5 +254,61 @@ h6 {
 .pie_chart {
 	display: block;
 	width: 200px;
-	margin: 0 auto;
+	margin: 3.5rem auto 1rem;
+}
+
+.block__subsubhead {
+	position: fixed;
+	top: 53px;
+	left: 0;
+	width: 100%;
+	padding: 20px 5px 10px;
+	text-align: center;
+	letter-spacing: 0.25px;
+	font-size: 0.9rem;
+	color: darken($teal,10%);
+}
+
+.nutrition_table {
+	width: 100%;
+	font-size: 0.9rem;
+	font-weight: 400;
+	color: $gray;
+
+	th {
+		font-weight: 400;
+		text-align: right;
+	}
+
+	th,
+	td {
+		padding: 7px 3.5px;
+	}
+
+	td span {
+		display: block;
+		width: 15px;
+		height: 15px;
+
+		&.blue {
+		background-color: $blue;
+		}
+
+		&.red {
+			background-color: $red;
+		}
+
+		&.green {
+			background-color: $green-dark;
+		}
+	}
+
+	td:nth-of-type(3),
+	td:nth-of-type(4) {
+		text-align: right;
+	}
+
+	td:nth-of-type(4) {
+		color: $blue;
+	}
 }
