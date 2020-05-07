@@ -7,6 +7,7 @@
 
 			<div class="block__title">
 				<h2 class="block__subheading">Meal Options</h2>
+				<?php include_once('../partials/logout.php'); ?>
 			</div>
 
 				<?php //include_once('../partials/header.php'); ?>
@@ -26,32 +27,11 @@
         			<span class="meal_macros">Protein 20g</span>
         		</div>
             <div class="form__radio">
-            	<!-- <input id="Whole Wheat English Muffin" type="radio" name="favorites" checked /> -->
-            	<label class="radio" for="Whole Wheat English Muffin">Whole Wheat English Muffin<span>Trader Joes, 1 muffin</span></label>
-            		<br>
-            	<!-- <input id="Large Egg Nw" type="radio" name="favorites" /> -->
-            	<label class="radio" for="Large Egg Nw">Large Egg Nw<span>Dutch Farms, 1 egg (50g)</span></label>
-            		<br>
-            	<!-- <input id="Natural Choice Honey Deli Ham" type="radio" name="favorites" /> -->
-            	<label class="radio" for="Natural Choice Honey Deli Ham">Natural Choice Honey Deli Ham<span>Hormel, 2 slices</span></label>
-            		<br>
-            	<!-- <input id="Colby Jack Slice" type="radio" name="favorites" /> -->
-            	<label class="radio" for="Colby Jack Slice">Colby Jack Slice<span>Sargento, 1 slice</span></label>
-            		<br>
-            	<!-- <input id="Hellman's Light" type="radio" name="favorites" /> -->
-            	<label class="radio" for="Hellman's Light">Hellman's Light<span>Mayo, 15 grams</span></label>
-            		<br>
-            	<!-- <input id="Raw Almond Butter" type="radio" name="favorites" /> -->
-            	<label class="radio" for="Raw Almond Butter">Raw Almond Butter<span>1 tbsp</span></label>
-            		<br>
-            	<!-- <input id="Honeycrisp Apple" type="radio" name="favorites" /> -->
-            	<label class="radio" for="Honeycrisp Apple">Honeycrisp Apple<span>1 medium apple</span></label>
-            		<br>
-            	<!-- <input id="Avocado" type="radio" name="favorites" /> -->
-            	<label class="radio" for="Avocado">Avocado<span>1 medium</span></label>
-            		<br>
-            	<!-- <input id="Red Wine" type="radio" name="favorites" /> -->
-            	<label class="radio" for="Red Wine">Red Wine<span>6 oz</span></label>
+            	<div class="radio">Whole Wheat English Muffin<span>Trader Joes, 1 muffin</span></div>
+            	<div class="radio">Large Egg Nw<span>Dutch Farms, 1 egg (50g)</span></div>
+            	<div class="radio">Natural Choice Honey Deli Ham<span>Hormel, 2 slices</span></div>
+            	<div class="radio">Colby Jack Slice<span>Sargento, 1 slice</span></div>
+            	<div class="radio">Hellman's Light<span>Mayo, 15 grams</span></div>
             </div>
           </form>
         </main>

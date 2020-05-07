@@ -7,6 +7,7 @@
 
 			<div class="block__title">
 				<h2 class="block__subheading">Nutrition</h2>
+				<?php include_once('../partials/logout.php'); ?>
 				<h3 class="block__subsubhead">Macros</h3>
 			</div>
 

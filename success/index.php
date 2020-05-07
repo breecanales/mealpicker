@@ -12,6 +12,8 @@
             <div class="block__copy">
             	<p>Check your email to verify your account!</p>
             </div>
+            <label class="label" for="create-profile">Add Your Macros</label>
+              <button id="create-profile" class="button orange-dark"><a href="../macros/">Add Your Macros</a></button>
         </main>
 
         <?php include_once('../partials/footer.php'); ?>

@@ -7,6 +7,7 @@
 
 			<div class="block__title">
 				<h2 class="block__subheading">Favorite Ingredients</h2>
+				<?php include_once('../partials/logout.php'); ?>
 			</div>
 
 				<?php //include_once('../partials/header.php'); ?>

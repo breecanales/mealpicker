@@ -167,7 +167,7 @@ h6 {
 	position: relative;
 	width: 150px;
 	height: 150px;
-	margin: 0 auto;
+	margin: 1rem auto 0;
 	background-color: $green-dark;
 	border-radius: 50%;
 
@@ -207,6 +207,7 @@ h6 {
 	top: 53px;
 	right: 0;
 	cursor: pointer;
+	z-index: 2;
 
 	a {
 		display: block;

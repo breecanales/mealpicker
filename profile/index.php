@@ -6,16 +6,9 @@
 		<body class="profile page">
 
 			<div class="block__title">
-				<h2 class="block__subheading">Hello, Heidi</h2>
-				<div class="logout_app">
-					<svg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 512 512'><title>Logout</title><circle cx='256' cy='256' r='48'/><circle cx='256' cy='416' r='48'/><circle cx='256' cy='96' r='48'/></svg>
-					<div class="profile_logout">
-						<a href="../">Logout</a>
-					</div>
-				</div>
+				<h2 class="block__subheading">Hello, Ada</h2>
+				<?php include_once('../partials/logout.php'); ?>
 			</div>
-
-				<?php //include_once('../partials/header.php'); ?>
 
         <main class="main" role="main">
         	<div class="profile_img">
@@ -25,7 +18,7 @@
         		</div>
         	</div>
         	<div class="block__copy">
-        		<p>Heidi Holden</p>
+        		<p>Ada Lovelace</p>
         	</div>
         	<form id="sign-in-form" class="form" role="form">
                 <div class="form__input">
