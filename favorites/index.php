@@ -10,8 +10,6 @@
 				<?php include_once('../partials/logout.php'); ?>
 			</div>
 
-				<?php //include_once('../partials/header.php'); ?>
-
         <main class="main" role="main">
         	<div class="block__copy">
           	<p>Find your favorite foods!</p>

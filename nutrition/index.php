@@ -11,9 +11,13 @@
 				<h3 class="block__subsubhead">Macros</h3>
 			</div>
 
-				<?php //include_once('../partials/header.php'); ?>
-
         <main class="main" role="main">
+        	<div class="block__copy nutrition">
+          	<p>Nutrients Remaining</p>
+          	<div class="nutrients_remaining">160<span>Carbs (g)</span></div>
+          	<div class="nutrients_remaining">38<span>Fat (g)</span></div>
+          	<div class="nutrients_remaining">70<span>Protein (g)</span></div>
+          </div>
         	<img class="pie_chart" src="../img/piechart.png" alt="Macros Piechart">
         	<table class="nutrition_table">
         		<thead>
@@ -44,12 +48,6 @@
 	        		</tr>
         		</tbody>
         	</table>
-        	<div class="block__copy nutrition">
-          	<p>Nutrients Remaining</p>
-          	<div class="nutrients_remaining">160<span>Carbs (g)</span></div>
-          	<div class="nutrients_remaining">38<span>Fat (g)</span></div>
-          	<div class="nutrients_remaining">70<span>Protein (g)</span></div>
-          </div>
         </main>
 
         <?php include_once('../partials/footer.php'); ?>
