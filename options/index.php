@@ -29,7 +29,7 @@
             	<div class="radio">Large Egg Nw<span>Dutch Farms, 1 egg (50g)</span></div>
             	<div class="radio">Natural Choice Honey Deli Ham<span>Hormel, 2 slices</span></div>
             	<div class="radio">Colby Jack Slice<span>Sargento, 1 slice</span></div>
-            	<div class="radio">Hellman's Light<span>Mayo, 15 grams</span></div>
+            	<div class="radio">Hellman's Light<span>Mayo, 15 grams</span><span class="condiment_label">Condiment</span></div>
             </div>
           </form>
         </main>

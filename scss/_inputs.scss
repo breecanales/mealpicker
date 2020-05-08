@@ -31,6 +31,7 @@ input[type=radio] {
 }
 
 .radio {
+	position: relative;
 	width: auto;
 	display: inline-block;
 	vertical-align: middle;
@@ -53,7 +54,7 @@ div.radio {
 
 .favorites.page {
 	.radio {
-		width: calc(100% - 50px);
+		width: calc(100% - 55px);
 	}
 
 	.form__input.favorites {
