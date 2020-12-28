@@ -1,1 +1,7 @@
-.sass-cache/
+.DS_Store
+node_modules
+.npm-debug.log
+.tmp
+.sass-cache
+*.css.map
+*.min.js.map
