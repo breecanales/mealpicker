@@ -17,4 +17,7 @@ $gray-light: #f8f8f8;
 $link: #0092f1;
 
 // Fonts
-$nunito: 'Nunito Sans', sans-serif;
+$nunito: "Nunito Sans", sans-serif;
+
+// https://sass-lang.com/documentation/cli/dart-sass#style
+// sass --watch scss/style.scss:style.css --style compressed
